@@ -177,3 +177,23 @@ https://lookerstudio.google.com/reporting/create?c.reportId=xxxxxx-xxxxxx-xxxx-x
 ### Finally, a beautiful looker studio will be shown into the looker studio therefore, you can either access it using provided URL or from the following link: https://lookerstudio.google.com/ and you can also select the resources or biling project wise.
 
 ![alt text](images/Billing_Export_6.PNG)
+
+---
+
+# Budegets and Alerts
+
+- Budgets and alerts can be set for each billing account or project.
+- You can set up a specific threshold. Once the amount spent is higher than the defined threshold, billing administrators and billing account users will be notified.
+- This will not stop the usage of any services, and charges will continue to apply for the running resources.
+- By default, there are three alert thresholds: 50%, 90%, and 100%. Both the number of thresholds and their values can be modified.
+
+  ![alt text](images/budget_alert_01.png)
+
+- There are two types of notification targets: email and a Pub/Sub topic. If the mail channel is chosen, the billing administrators and users can be notified or a specific notification channel with an associated email address can be selected.
+- If a Pub/Sub topic is selected, an already existing topic can be selected or a new topic can be created.
+
+### Billing Account Roles
+
+Surely, you would want to have control over who has access to your billing and who can manage the payments. The following list shows the roles that can be used to control the billing:
+
+![alt text](images/Billing_IAM_01.PNG)
