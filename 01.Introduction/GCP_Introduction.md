@@ -161,7 +161,8 @@ Follow each step carefully:
 
 python billboard.py \
  -pr 'cloud-architect-project1' \
- -se 'billing\*export' \
+ -se 'billing_export' \
+ -de 'billing_export' \
  -bb 'billboard_dataset'
 
 ### Very Important note here is that you've to provide the name billboard_dataset against -bb and after executing this command the respective dataset would be created in BigQuery. The name would be anything you want but it should not be as 'billing_export'
