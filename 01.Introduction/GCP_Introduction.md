@@ -159,10 +159,7 @@ Follow each step carefully:
 
 4. Now, the main part, you've to provide a proper names in the below parameters because, it will throw an error if the proper names are not given and also keep in mind the parameters should be as it is (like -pr, -se, -bb)
 
-python billboard.py \
- -pr 'cloud-architect-project1' \
- -se 'billing\*export' \
- -bb 'billboard_dataset'
+![alt text](images/Billing_Export_7.PNG)
 
 ### Very Important note here is that you've to provide the name billboard_dataset against -bb and after executing this command the respective dataset would be created in BigQuery. The name would be anything you want but it should not be as 'billing_export'
 
