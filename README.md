@@ -11,3 +11,11 @@
 - Comparing GCP services to AWS and Azure: https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
 
 ---
+
+## 02. GCP Important Services
+
+- GCP core services and products: https://cloud.google.com/products/
+- Cloud Run: https://cloud.google.com/run/
+- GKE On-Prem: https://cloud.google.com/gke-on-prem/
+
+---
